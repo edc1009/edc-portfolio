@@ -1,0 +1,50 @@
+﻿Edward Chen
+857 364 7113 | chen.i1@northeastern.edu | Los Angeles(Willing to relocate) | LinkedIn 
+
+
+EXPERIENCE  
+Pioneer Global Logistics, Los Angeles, CA                                                                                           Oct 2024 - Present
+Largest logistics agency in LA, handling supply chain solutions with an annual shipment volume exceeding 100,000 containers.
+Product Manager
+* Redesigned the booking management module using React and RESTful APIs, reducing manual booking entry time by 40%, measured by average time OP spent per booking
+* Engineered a scalable 3PL integration framework by collaborating with carrier vendors and internal engineers, cutting coordination time by 45% through EDI/API automation
+* Led cross-functional initiative to automate carrier notice processing using AWS tools, resulting in 70% reduction in operations team's manual email handling time
+* Created internal OP KPI dashboard using Power BI, enabling real-time visibility of daily processed shipments, which increased order handling capacity by 20%, measured by daily shipment volume per OP
+* Facilitated user validation testing with SMEs, created UAT scripts and supported hypercare post-deployment, achieving a <5% issue rate in the first 3 weeks after launch
+Phase, Boston, MA                                                                                           May 2023 - Nov 2023
+UX animation design software company, with over 10,000 users and $10M in angel investment.
+Technical Product Manager
+* Led the app's user onboarding redesign, increasing new user retention by 30% and satisfaction rate to 82%
+* Conducted market research on animation software trends, driving a UI revamp that boosted engagement by 35%
+* Prioritized 20 product features through power-user interviews, streamlining development and aligning with user needs
+
+
+ACE Exchange, Taipei, Taiwan                                                                                     Aug 2020 - Aug 2022
+Taiwan's largest Web3.0 exchange, with more than 100,000 registered members, secured Series B funding of $ 30 M.
+Product Manager
+* Led an 11-member squad, including a designer, developers, and QA, to revamp the app deposit journey, increase the funnel conversion rate by 30%, and double the deposit rate
+* Build up the App data tracking rules and create dashboards on key performance indicators related to conversion rates, user engagement, and acquisition metrics to generate App product insights
+* Reduced user disputes by 18% by streamlining cross-functional team collaboration processes and providing self-service solutions to users
+
+
+PROJECT EXPERIENCE  
+Freehand.ai                                                                                                                       Oct 2024 - April 2025
+Product Owner
+* Launched a container tracking tool that redirected users to 10+ carrier websites, reducing query time by ~60% compared to manual lookups
+* Implemented carrier detection using pattern-matching logic and JSON schema, achieving 98% match accuracy in testing across 100+ BL/container entries
+* Developed a logistics chatbot powered by RAG architecture with Gemini embeddings and hard prompts, achieving 85% answer relevance in QA testing
+
+
+BCG GenAI project                                                                                                                      July 2025-Present
+* Completed a job simulation involving AI-powered financial chatbot development for BCG's GenAI Consulting team.
+* Gained experience in Python programming, including the use of libraries such as pandas for data manipulation.
+
+
+EDUCATION   
+Northeastern University, Boston, MA                                                                                           Sep 2022 - May 2024                                
+Master of Science in Information System                                                                                     GPA: 4.0
+
+
+SKILLS
+Languages & Tools: Python, SQL, HTML, Javascript, Tableau, DOMO, Snowflake, JIRA, Salesforce, Excel, FocalPoint, Workfront, Veeva, Figma, Google Analytics, Google Cloud, AWS, Microsoft Office  
+Areas of Expertise: Product Road Mapping, Product Management, Product Scaling, Database Design, NPD/NPI Lifecycle, Data visualization, Project Management, Customer Research, Forecasting, Strategic Planning, Resource and Timeline Planning

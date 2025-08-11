@@ -57,13 +57,13 @@ export default function Page() {
           <div className="space-y-content-sm">
             <BlurFade delay={BLUR_FADE_DELAY * 11}>
               <p className="max-w-xl text-pretty font-sans text-sm text-muted-foreground dark:text-muted-foreground">
-                Hello, I'm Edward, a Product Manager specializing in logistics technology and AI-driven solutions. Currently, I lead the development of an AI-powered container-tracking tool and an email Kanban board at Freehand.ai, reducing manual tracking time by 60% and improving team efficiency. Previously at Pioneer Global Logistics, I redesigned our booking system with React and RESTful APIs—cutting manual entry by 40%—and led a carrier integration framework that accelerated data exchange by 45%, freeing up operations for higher-value work.
+                Hello, I&apos;m Edward, a Product Manager specializing in logistics technology and AI-driven solutions. Currently, I lead the development of an AI-powered container-tracking tool and an email Kanban board at Freehand.ai, reducing manual tracking time by 60% and improving team efficiency. Previously at Pioneer Global Logistics, I redesigned our booking system with React and RESTful APIs—cutting manual entry by 40%—and led a carrier integration framework that accelerated data exchange by 45%, freeing up operations for higher-value work.
               </p>
               <p className="max-w-xl text-pretty font-sans text-sm text-muted-foreground dark:text-muted-foreground">
                 I hold an MS in Experience Design from Northeastern University (4.0 GPA), where I honed my UX skills to optimize onboarding flows and increase new-user retention by 30%. At ACE Exchange in Taipei, I managed an 11-member cross-functional team to revamp the deposit journey, doubling deposit rates and delivering a seamless customer experience.
               </p>
               <p className="max-w-xl text-pretty font-sans text-sm text-muted-foreground dark:text-muted-foreground">
-                I'm passionate about building data-driven products that simplify complex workflows and drive measurable business impact. I'm excited to bring my blend of technical expertise, user-centered design, and collaborative leadership to a forward-thinking team ready to innovate in logistics and automation.
+                I&apos;m passionate about building data-driven products that simplify complex workflows and drive measurable business impact. I&apos;m excited to bring my blend of technical expertise, user-centered design, and collaborative leadership to a forward-thinking team ready to innovate in logistics and automation.
               </p>
             </BlurFade>
           </div>

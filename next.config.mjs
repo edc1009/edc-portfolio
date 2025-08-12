@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export', // Enable static export for GitHub Pages
-  basePath: '',
+  basePath: '/edc-portfolio',
   trailingSlash: true,
   images: {
     unoptimized: true,

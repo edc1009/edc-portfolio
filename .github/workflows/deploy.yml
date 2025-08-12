@@ -30,17 +30,13 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '18'
-        
-    - name: Setup pnpm
-      uses: pnpm/action-setup@v4
-      with:
-        version: 8
+        cache: 'npm'
         
     - name: Install dependencies
-      run: pnpm install --no-frozen-lockfile
+      run: npm ci
       
     - name: Build
-      run: pnpm build
+      run: npm run build
       env:
         NEXT_PUBLIC_GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       
@@ -54,4 +50,4 @@ jobs:
         
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v4 
+      uses: actions/deploy-pages@v4

@@ -2,7 +2,7 @@
   "name": "heilcheng-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://edc1009.github.io",
+  "homepage": "https://edc1009.github.io/edc-portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

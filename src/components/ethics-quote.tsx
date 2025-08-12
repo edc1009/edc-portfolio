@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import Link from "next/link";
 import { Safari } from "@/components/magicui/safari";
+import { getImagePath } from "@/lib/image-utils";
 
 interface EthicsQuoteProps {
   delay?: number;
@@ -94,11 +95,11 @@ export const EthicsQuote = ({ delay = 0 }: EthicsQuoteProps) => {
         <div className="w-full max-w-4xl">
           <Safari 
             url="en.wikipedia.org/wiki/MediSafe_controversy"
-            imageSrc="/wikipedia.png?v=2"
+            imageSrc={getImagePath("/wikipedia.png?v=2")}
             className="w-full h-auto shadow-2xl"
           />
         </div>
       </motion.div>
     </motion.div>
   );
-}; 
+};

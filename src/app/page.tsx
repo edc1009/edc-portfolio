@@ -7,8 +7,8 @@ const TechStack = dynamic(() => import("@/components/tech-stack").then(mod => mo
 const TimelineItem = dynamic(() => import("@/components/resume-card").then(mod => mod.TimelineItem), { ssr: false });
 const ContactOrbiting = dynamic(() => import("@/components/contact-orbiting").then(mod => mod.ContactOrbiting), { ssr: false });
 
-const BlurFade = dynamic(() => import("@/components/magicui/blur-fade").then(mod => mod.default), { ssr: false });
-const BlurFadeText = dynamic(() => import("@/components/magicui/blur-fade-text").then(mod => mod.default), { ssr: false });
+const BlurFade = dynamic(() => import("@/components/magicui/blur-fade").then(mod => mod.default));
+const BlurFadeText = dynamic(() => import("@/components/magicui/blur-fade-text").then(mod => mod.default));
 const ProjectCard = dynamic(() => import("@/components/project-card").then(mod => mod.ProjectCard), { ssr: false });
 const ResumeCard = dynamic(() => import("@/components/resume-card").then(mod => mod.ResumeCard), { ssr: false });
 

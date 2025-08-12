@@ -11,7 +11,7 @@ const BlurFade = dynamic(() => import("@/components/magicui/blur-fade").then(mod
 const BlurFadeText = dynamic(() => import("@/components/magicui/blur-fade-text").then(mod => mod.default), { ssr: false });
 const ProjectCard = dynamic(() => import("@/components/project-card").then(mod => mod.ProjectCard), { ssr: false });
 const ResumeCard = dynamic(() => import("@/components/resume-card").then(mod => mod.ResumeCard), { ssr: false });
-const TableOfContents = dynamic(() => import("@/components/table-of-contents").then(mod => mod.TableOfContents), { ssr: false });
+
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
@@ -21,7 +21,6 @@ const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] py-section-md">
-      <TableOfContents />
       
       <section id="hero" className="mb-section-lg">
         <div className="w-full space-y-content-lg">

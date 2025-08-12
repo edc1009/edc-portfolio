@@ -58,8 +58,8 @@ const techCategories: TechCategory[] = [
         name: "Analytics & BI Tools",
         items: [
           { name: "Tableau", logo: "https://cdn.worldvectorlogo.com/logos/tableau-software.svg" },
-          { name: "DOMO", logo: "https://www.domo.com/assets/images/brand/domo-logo.svg" },
-          { name: "Google Analytics", logo: "https://www.google.com/analytics/static/img/analytics-logo.svg" },
+          { name: "DOMO", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" },
+          { name: "Google Analytics", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" },
           { name: "Excel", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" },
         ]
       },
@@ -82,15 +82,15 @@ const techCategories: TechCategory[] = [
         name: "Project Management",
         items: [
           { name: "JIRA", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" },
-          { name: "FocalPoint", logo: "https://www.planview.com/wp-content/uploads/2019/01/planview-logo.svg" },
-          { name: "Workfront", logo: "https://workfront.azureedge.net/content/dam/one-workfront/logos/wf-header-logo.svg" },
+          { name: "FocalPoint", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" },
+          { name: "Workfront", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" },
         ]
       },
       {
         name: "CRM & Sales",
         items: [
           { name: "Salesforce", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/salesforce/salesforce-original.svg" },
-          { name: "Veeva", logo: "https://www.veeva.com/wp-content/uploads/2019/01/veeva-logo.svg" },
+          { name: "Veeva", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" },
         ]
       },
       {

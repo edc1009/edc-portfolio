@@ -120,7 +120,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/edc1009/ai-freight-track",
+          href: "https://edc1009.github.io/aifreighttrack/",
           icon: <Icons.github className="size-3" />,
         },
       ],

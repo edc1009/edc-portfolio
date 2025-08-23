@@ -8,6 +8,7 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import "leaflet/dist/leaflet.css";
+import Script from "next/script";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -58,18 +59,20 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JBT6P8N64X"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-JBT6P8N64X');
-            `,
-          }}
-        />
+        {/* Google tag (gtag.js) - only load in production */}
+        {process.env.NODE_ENV === "production" && (
+          <>
+            <Script async src="https://www.googletagmanager.com/gtag/js?id=G-JBT6P8N64X" />
+            <Script id="ga-gtag" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-JBT6P8N64X');
+              `}
+            </Script>
+          </>
+        )}
       </head>
       <body
         className={cn(
